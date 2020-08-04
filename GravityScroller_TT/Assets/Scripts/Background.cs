@@ -11,14 +11,13 @@ public class Background : MonoBehaviour
 
     private SpriteRenderer _spriteRenderer;
     
-    // Start is called before the first frame update
     void Start()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
         ChangeSpriteOn(BackgroundType.Default);
     }
 
-    private void ChangeSpriteOn(BackgroundType type)
+    public void ChangeSpriteOn(BackgroundType type)
     {
         switch (type)
         {
@@ -37,10 +36,4 @@ public class Background : MonoBehaviour
         }
     }
 
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

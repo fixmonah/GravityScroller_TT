@@ -9,6 +9,11 @@
         <e p="Scripts" t="Include">
           <e p="Background.cs" t="Include" />
           <e p="BackgroundType.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
+          <e p="PlatformDestroyer.cs" t="Include" />
+          <e p="PlatformHit.cs" t="Include" />
+          <e p="Platforms.cs" t="Include" />
+          <e p="PlatformsPool.cs" t="Include" />
         </e>
       </e>
       <e p="GravityScroller_TT.sln" t="IncludeFlat" />
