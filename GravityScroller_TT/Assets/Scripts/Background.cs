@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Background : MonoBehaviour
 {
@@ -14,7 +11,7 @@ public class Background : MonoBehaviour
     void Start()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        ChangeSpriteOn(BackgroundType.Default);
+        ChangeSpriteOn(BackgroundType.Down);
     }
 
     public void ChangeSpriteOn(BackgroundType type)
